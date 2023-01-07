@@ -6,42 +6,34 @@
 /* Header style */
 
 .header {
-    background-image: url('../images/banner/banner1.png');
+    background-image: url('/images/banner/banner1.png');
     background-repeat: no-repeat;
-    width: 1600px;
-    height: 808px;
-    /* font-weight: 1600px;
-    font-size: 808px; */
-    background-position: bottom right, left;
+
 }
 
 .banner {
-    /* display: flex;
-    align-items: center;
-    margin: 0 200px;
+    
+    height: 808px;
+    margin: 0px 200px;
     font-weight: 700;
-    font-size: 35px; */
-    width: 40%;
-    margin-left: 50%;
-    padding-left: 2%;
-    margin-bottom: -150px;
+    font-size: 35px;
+    margin-bottom: 130px;
 }
 
 .banner-sub {
     font-weight: 700;
     font-size: 65px;
     line-height: 76px;
-    text-align: right
+    text-align: right;
 }
 
 .banner-description {
-    width: 494px;
-    height: 78px;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     text-align: right;
     color: #444343;
+
 }
 
 .btn-primary {
@@ -53,7 +45,7 @@
     font-size: 20px;
     border: 0;
     padding: 18px 35px;
-    margin-left: 65%;
+    margin-left: 80%;
 }
 
 /* About Section */
@@ -62,9 +54,9 @@
     display: flex;
     gap: 87px;
     align-items: center;
-    margin-left: 206px;
-    margin-right: 322px;
-
+    margin-left: 100px;
+    margin-bottom: 130px;
+    
 }
 
 .about-title {
