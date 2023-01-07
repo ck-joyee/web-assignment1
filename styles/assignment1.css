@@ -12,7 +12,7 @@
 }
 
 .banner {
-    
+
     height: 808px;
     margin: 0px 200px;
     font-weight: 700;
@@ -48,6 +48,13 @@
     margin-left: 80%;
 }
 
+/* Main Section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
 /* About Section */
 
 .about-container {
@@ -56,7 +63,7 @@
     align-items: center;
     margin-left: 100px;
     margin-bottom: 130px;
-    
+
 }
 
 .about-title {
@@ -86,5 +93,42 @@
     left: 862px;
     top: 1416px;
     color: #444343;
+}
 
+/* My Plans Section */
+.plans-section {
+    width: 1141px;
+    height: 299.96px;
+}
+
+.my-plan-title {
+    text-align: center;
+    margin: 50px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.plans-container {
+    display: flex;
+}
+
+.plans {
+    background: #FFFFFF;
+    padding: 30px;
+    margin-left: 75px;
+}
+
+.plans-title {
+    text-align: left;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.plans-description {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
 }
