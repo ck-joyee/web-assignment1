@@ -195,6 +195,7 @@ main {
 }
 
 /* Gradiant Section */
+
 .gradiant-section {
     height: 300px;
     background-image: linear-gradient(to right, hwb(25 7% 11%), #cbcaca11), url('./images/watch.png');
