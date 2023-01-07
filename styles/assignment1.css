@@ -198,7 +198,7 @@ main {
 
 .gradiant-section {
     height: 300px;
-    background-image: linear-gradient(to right, hwb(25 7% 11%), #cbcaca11), url('./images/watch.png');
+    background-image: linear-gradient(to right, hwb(25 7% 11%), #cbcaca11), url('/images/banner/watch.png');
     background-repeat: no-repeat;
     margin-top: 130px;
     align-items: center;
