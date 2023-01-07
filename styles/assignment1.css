@@ -4,36 +4,41 @@
 }
 
 /* Header style */
-
 .header {
-    background-image: url('/images/banner/banner1.png');
+    background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
+    height: 808px;
+    justify-content: space-between;
+    background-size: cover;
+}
 
+.banner-bg {
+    margin-bottom: 25%;
 }
 
 .banner {
-
-    height: 808px;
-    margin: 0px 200px;
+    text-align: right;
+    margin: 0 200px;
     font-weight: 700;
     font-size: 35px;
-    margin-bottom: 130px;
+    width: 40%;
+    margin-left: 54%;
+    margin-top: -40%;
 }
 
 .banner-sub {
     font-weight: 700;
     font-size: 65px;
     line-height: 76px;
-    text-align: right;
 }
 
 .banner-description {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    text-align: right;
     color: #444343;
-
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .btn-primary {
@@ -45,7 +50,7 @@
     font-size: 20px;
     border: 0;
     padding: 18px 35px;
-    margin-left: 80%;
+
 }
 
 /* Main Section */
@@ -74,6 +79,7 @@ main {
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
+    margin-bottom: 20px;
 }
 
 .about-subtitile {
@@ -85,6 +91,7 @@ main {
     font-size: 16px;
     line-height: 26px;
     color: #444343;
+    margin-bottom: 20px;
 }
 
 .about-list {
@@ -96,11 +103,6 @@ main {
 }
 
 /* My Plans Section */
-
-/* .plans-section {
-    width: 1141px;
-    height: 299.96px;
-} */
 
 .my-plan-title {
     text-align: center;
@@ -157,14 +159,17 @@ main {
     color: #FFFFFF;
     margin-bottom: 30px;
 }
-.mail{
+
+.mail {
     color: #FFFFFF;
     margin-bottom: 10px;
 }
-.phone{
+
+.phone {
     color: #FFFFFF;
     margin-bottom: 35px;
 }
+
 .btn-secondary {
     height: 64px;
     background: #FFFFFF;
@@ -175,13 +180,48 @@ main {
     border: 0;
     padding: 18px 35px;
 }
-.footer input[type="email"]{
+
+.footer input[type="email"] {
     margin-bottom: 24px;
     color: #F8F8F8;
+    border: 2px solid white;
     width: 100%;
     padding: 18px 30px;
     background-color: black;
 }
-.footer a{
+
+.footer a {
     text-decoration: none;
+}
+
+/* Gradiant Section */
+.gradiant-section {
+    height: 300px;
+    background-image: linear-gradient(to right, hwb(25 7% 11%), #cbcaca11), url('/images/watch.png');
+    background-repeat: no-repeat;
+    margin-top: 130px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.grad1 {
+    padding: 20px;
+}
+
+.gra-description {
+    width: 450px;
+    height: 100px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin-bottom: 5%;
+
+
+}
+
+.gra {
+    margin-left: 10%;
+    margin-bottom: -50px;
+
 }
